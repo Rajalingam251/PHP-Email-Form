@@ -1,0 +1,8 @@
+services:
+  - name: php-email-form
+    type: web
+    env: docker
+    region: ohio
+    rootDir: .
+    dockerfilePath: ./Dockerfile
+    plan: free
